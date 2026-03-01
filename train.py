@@ -8,7 +8,7 @@ from sklearn.metrics import (
 import numpy as np
 
 from dataset import get_mnist_dataloaders
-from model2 import HLGAN
+from model import HLGAN
 
 def train_model(
     epochs=15,
@@ -146,3 +146,4 @@ if __name__ == "__main__":
         batch_size=64,
         learning_rate=1e-3
     )
+
