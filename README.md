@@ -1,1 +1,2 @@
 HLGAN
+used mnist dataset
