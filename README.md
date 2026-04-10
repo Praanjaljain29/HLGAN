@@ -31,8 +31,6 @@ It combines local attention for neighborhood feature extraction and global atten
 - `dataset.py`: MNIST dataloader and preprocessing
 - `model.py`: HLGAN architecture
 - `train.py`: training and evaluation pipeline
-- `README.md`: detailed project notes
-- `README2.md`: concise GitHub-ready README
 
 ## Dataset
 The project uses MNIST and downloads it automatically through torchvision if not present.
